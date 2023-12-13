@@ -622,18 +622,20 @@ blockquote {
 
 .intro__mobile {
 	align-items: center;
-	display: flex;
+	display:inline;
 	flex-direction: column;
 	font-size: 1rem;
-	text-align: center;
+	text-align: left;
 	padding: 0 0px;
 	width: 100%;
   }
 
-  .intro__mobile p {
-	margin: 0;
-	max-width: 320px;
-  }
+.intro__mobile p {
+margin: 0;
+max-width: 320px;
+margin-left: 20%;
+margin-right:20%;
+}
 
 .alerta {
 	color:blue;
