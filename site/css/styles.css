@@ -51,7 +51,7 @@ h3 {
 .page-title {
 	font-size: 5.5rem;
 	font-weight: 400;
-	margin-top: 15rem;
+	margin-top: 10rem;
 	margin-bottom: 0rem;
 	color:blue;
 }
@@ -90,6 +90,7 @@ h3 {
 	color:blue;
 	font-size:1.1rem;
 	background-color: #eeeeee;
+	overflow-wrap: break-word;
 }
 
 figure {
@@ -359,7 +360,7 @@ ol > li {
 .numbered-list {
 	list-style-position: outside;
 	list-style-type:;
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 	width: 80%;
 	margin-top:10px;
 	margin-bottom:10px;
@@ -653,7 +654,9 @@ blockquote {
 
 @media (max-width: 899px) {
 
-
+	.intro__mobile {
+		display: block;
+		}
 
 	.conteudo {
 		display:none;
